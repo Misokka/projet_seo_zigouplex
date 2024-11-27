@@ -33,7 +33,9 @@ export default function Layout({ children }) {
         <SchemaScript />
         <meta name="google-site-verification" content="fg-39JP0ljmWHHZDFQ1ZICjkfnL32608bf7yGJIhOnM" />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.zigouplex.site/" />
       </head>
+
       <body className={`${inter.className} bg-gray-50 text-gray-900`}>
         {/* Header */}
         <header className="bg-white shadow-md sticky top-0 z-50">
