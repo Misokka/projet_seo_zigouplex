@@ -31,7 +31,7 @@ export default function Layout({ children }) {
     <html lang="fr">
       <head>
         <SchemaScript />
-        <meta name="google-site-verification" content="88iioHLO68AYwikqqJPFPFqwQhhiAcF7yzuD3DEQ93A" />
+        <meta name="google-site-verification" content="fg-39JP0ljmWHHZDFQ1ZICjkfnL32608bf7yGJIhOnM" />
         <meta name="robots" content="index, follow" />
       </head>
       <body className={`${inter.className} bg-gray-50 text-gray-900`}>
