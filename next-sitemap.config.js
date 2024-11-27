@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://projet-seo-zigouplex-misokkas-projects.vercel.app',
+    siteUrl: 'https://zigouplex.site',
     generateRobotsTxt: true, 
   };
   

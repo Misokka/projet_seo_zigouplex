@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative h-screen bg-gradient-to-br from-yellow-100 via-yellow-200 to-yellow-300 flex items-center justify-center">
+    <section id="home" className="relative h-[70vh] bg-gradient-to-br from-yellow-100 via-yellow-200 to-yellow-300 flex items-center justify-center">
       {/* <Image
         src="/images/bakery-hero.jpg"
         alt="Boulangerie Zigouplex"
