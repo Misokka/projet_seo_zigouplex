@@ -14,14 +14,14 @@ export default function Hero() {
       /> */}
       <div className="relative z-10 text-center text-gray-800">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
-          Bienvenue chez <span className="text-yellow-600">Zigouplex</span>
+          Bienvenue chez <span className="text-brown">Zigouplex</span>
         </h1>
         <p className="text-xl md:text-2xl mb-6">
           Des pains et viennoiseries artisanaux d'exception.
         </p>
         <a
           href="#products"
-          className="px-6 py-3 bg-yellow-600 text-white text-lg rounded-lg shadow-md hover:bg-yellow-700 transition"
+          className="px-6 py-3 bg-brown text-white text-lg rounded-lg shadow-md hover:bg-yellow-700 transition"
         >
           Découvrez nos produits
         </a>

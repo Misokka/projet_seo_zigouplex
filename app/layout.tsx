@@ -39,7 +39,7 @@ export default function Layout({ children }) {
         <header className="bg-white shadow-md sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             {/* Logo */}
-            <h1 className="text-2xl font-bold text-yellow-600">Zigouplex</h1>
+            <h1 className="text-2xl font-bold text-brown">Zigouplex</h1>
 
             {/* Navigation */}
             <nav>
@@ -47,7 +47,7 @@ export default function Layout({ children }) {
                 <li>
                   <a
                     href="#home"
-                    className="text-gray-700 hover:text-yellow-600 font-medium transition"
+                    className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     Accueil
                   </a>
@@ -55,7 +55,7 @@ export default function Layout({ children }) {
                 <li>
                   <a
                     href="#about"
-                    className="text-gray-700 hover:text-yellow-600 font-medium transition"
+                    className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     À propos
                   </a>
@@ -63,7 +63,7 @@ export default function Layout({ children }) {
                 <li>
                   <a
                     href="#products"
-                    className="text-gray-700 hover:text-yellow-600 font-medium transition"
+                    className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     Produits
                   </a>
@@ -71,7 +71,7 @@ export default function Layout({ children }) {
                 <li>
                   <a
                     href="#contact"
-                    className="text-gray-700 hover:text-yellow-600 font-medium transition"
+                    className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     Contact
                   </a>
