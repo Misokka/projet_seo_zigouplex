@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
-Sitemap: https://zigouplex.fr/sitemap.xml
+
+# Host
+Host: https://projet-seo-zigouplex-misokkas-projects.vercel.app
+
+# Sitemaps
+Sitemap: https://projet-seo-zigouplex-misokkas-projects.vercel.app/sitemap.xml
