@@ -6,7 +6,7 @@ export default function About() {
         <p className="text-lg text-gray-700 leading-relaxed">
           Depuis 1985, Zigouplex perpétue la tradition de la boulangerie artisanale française. 
           Chaque jour, nos artisans boulangers s'évertuent à créer des pains et viennoiseries 
-          d'exception, en utilisant des ingrédients locaux soigneusement sélectionnés.
+          d'exception, en utilisant des ingrédients locaux soigneusement sélectionnés et son ingrédient secret, le Zigouplex.
         </p>
       </div>
     </section>

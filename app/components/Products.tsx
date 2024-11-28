@@ -3,19 +3,19 @@ import Image from 'next/image';
 export default function Products() {
   const products = [
     {
-      name: 'Pain au Levain',
-      description: 'Notre spécialité fermentée 24h.',
-      image: '/images/sourdough.jpg',
+      name: 'Pains au chocolat Zigouplex',
+      description: 'Notre spécialité fermentée 24h avec son ingrédient secret, le Zigouplex.',
+      image: '/images/painauchoc.webp',
     },
     {
-      name: 'Croissants Artisanaux',
-      description: 'Pur beurre AOP Charentes-Poitou.',
-      image: '/images/croissant.jpg',
+      name: 'Croissants Artisanaux Zigouplex',
+      description: 'Pur beurre AOP Charentes-Poitou avec son ingrédient secret, le Zigouplex.',
+      image: '/images/croissant.webp',
     },
     {
-      name: 'Baguette Tradition',
-      description: 'La vraie baguette française.',
-      image: '/images/baguette.jpg',
+      name: 'Baguette Tradition Zigouplex',
+      description: 'La vraie baguette française avec son ingrédient secret, le Zigouplex.',
+      image: '/images/baguette.webp',
     },
   ];
 
@@ -31,13 +31,13 @@ export default function Products() {
               key={product.name}
               className="rounded-lg shadow-md hover:shadow-lg transition bg-gray-50 overflow-hidden"
             >
-              <div className="relative h-48">
-                {/* <Image
+              <div className="h-48 w-full relative">
+                <Image
                   src={product.image}
                   alt={product.name}
-                  fill
+                  layout="fill"
                   className="object-cover"
-                /> */}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-2">
@@ -50,5 +50,5 @@ export default function Products() {
         </div>
       </div>
     </section>
-  );
+  );  
 }
