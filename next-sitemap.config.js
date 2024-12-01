@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://zigouplex.site',
-    generateRobotsTxt: true, 
-  };
-  
+  siteUrl: 'https://www.zigouplex.site',
+  generateRobotsTxt: true,
+  exclude: [],
+};
