@@ -48,7 +48,7 @@ export default function Layout({ children }) {
               <ul className="flex space-x-6">
                 <li>
                   <a
-                    href="#home"
+                    href="/#home"
                     className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     Accueil
@@ -56,7 +56,7 @@ export default function Layout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="#about"
+                    href="/#about"
                     className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     À propos
@@ -64,7 +64,7 @@ export default function Layout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="#products"
+                    href="/#products"
                     className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     Produits
@@ -72,7 +72,7 @@ export default function Layout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="/#contact"
                     className="text-gray-700 hover:text-brown font-medium transition"
                   >
                     Contact
