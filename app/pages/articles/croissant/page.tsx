@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Contact from "../../components/Contact";
-import Footer from "../../components/Footer";
+import Contact from "../../../components/Contact";
+import Footer from "../../../components/Footer";
 
 function Croissant() {
     const products = [
@@ -8,19 +8,13 @@ function Croissant() {
           name: 'Pains au chocolat Zigouplex',
           description: 'Notre spécialité fermentée 24h avec son ingrédient secret, le Zigouplex.',
           image: '/images/painauchoc.webp',
-          link: '/articles/pain_au_chocolat'
-        },
-        {
-          name: 'Croissants Artisanaux Zigouplex',
-          description: 'Pur beurre AOP Charentes-Poitou avec son ingrédient secret, le Zigouplex.',
-          image: '/images/croissant.webp',
-          link: '/articles/croissant'
+          link: 'pain_au_chocolat'
         },
         {
           name: 'Baguette Tradition Zigouplex',
           description: 'La vraie baguette française avec son ingrédient secret, le Zigouplex.',
           image: '/images/baguette.webp',
-          link: '/articles/baguette'
+          link: 'baguette'
         },
       ];
 

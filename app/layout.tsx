@@ -72,6 +72,14 @@ export default function Layout({ children }) {
                 </li>
                 <li>
                   <a
+                    href="/pages/blog"
+                    className="text-gray-700 hover:text-brown font-medium transition"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="/#contact"
                     className="text-gray-700 hover:text-brown font-medium transition"
                   >
