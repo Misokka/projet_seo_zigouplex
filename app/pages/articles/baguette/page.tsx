@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import Contact from '../../components/Contact';
-import Footer from '../../components/Footer';
+import Head from 'next/head';
+import Contact from '../../../components/Contact';
+import Footer from '../../../components/Footer';
 
 function Baguette() {
   const products = [
@@ -9,24 +10,31 @@ function Baguette() {
       name: 'Pains au chocolat Zigouplex',
       description: 'Notre spécialité fermentée 24h avec son ingrédient secret, le Zigouplex.',
       image: '/images/painauchoc.webp',
-      link: '/articles/pain_au_chocolat'
+      link: 'pain_au_chocolat'
     },
     {
       name: 'Croissants Artisanaux Zigouplex',
       description: 'Pur beurre AOP Charentes-Poitou avec son ingrédient secret, le Zigouplex.',
       image: '/images/croissant.webp',
-      link: '/articles/croissant'
-    },
-    {
-      name: 'Baguette Tradition Zigouplex',
-      description: 'La vraie baguette française avec son ingrédient secret, le Zigouplex.',
-      image: '/images/baguette.webp',
-      link: '/articles/baguette'
+      link: 'croissant'
     },
   ];
 
   return (
     <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Zigouplex" />
+        <meta name="title" content="Boulangerie zigouplex - Baguette"/>
+        <meta name="Description" content="Venez découvrir notre mythique baguette zigouplex." />
+        <meta property="og:title" content="Boulangerie zigouplex - Baguette" />
+        <meta property="og:description" content="Venez découvrir notre mythique baguette zigouplex." />
+        <meta property="og:image" content="/iamges/baguette.webp" />
+        <meta property="og:url" content="https://www.zigouplex.site/articles/baguette" />
+        <link rel="canonical" href="https://www.zigouplex.site/articles/baguette" />
+      </Head>
+      
       <main className="bg-white px-6 py-8">
         <article className='max-w-4xl m-auto'>
           <h1 className="text-3xl font-bold mb-10">Baguette : La reine du pain et son zigouplex légendaire</h1>

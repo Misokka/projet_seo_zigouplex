@@ -6,22 +6,30 @@ export default function Products() {
       name: 'Pains au chocolat Zigouplex',
       description: 'Notre spécialité fermentée 24h avec son ingrédient secret, le Zigouplex.',
       image: '/images/painauchoc.webp',
-      link: '/articles/pain_au_chocolat'
+      link: 'pages/articles/pain_au_chocolat'
     },
     {
       name: 'Croissants Artisanaux Zigouplex',
       description: 'Pur beurre AOP Charentes-Poitou avec son ingrédient secret, le Zigouplex.',
       image: '/images/croissant.webp',
-      link: '/articles/croissant'
+      link: 'pages/articles/croissant'
     },
     {
       name: 'Baguette Tradition Zigouplex',
       description: 'La vraie baguette française avec son ingrédient secret, le Zigouplex.',
       image: '/images/baguette.webp',
-      link: '/articles/baguette'
+      link: 'pages/articles/baguette'
     },
   ];
 
+  const articles = [
+    {
+      name: 'Le partenariat Zigouplex',
+      description: ' Une alliance entre tradition et innovation.',
+      image: '/images/partenariat.webp',
+      link: 'pages/articles/partenariat_zigouplex_store'
+    }
+  ]
   return (
     <section id="products" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
