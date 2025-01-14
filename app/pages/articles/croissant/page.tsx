@@ -26,6 +26,7 @@ function Croissant() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Zigouplex" />
         <meta name="title" content="Boulangerie zigouplex - croissant"/>
+        <meta name="keywords" content="Zigouplex, Zigouplex croissant, croissant, French pastry, chocolate croissant, Zigouplex articles" />
         <meta name="Description" content="Venez découvrir notre merveilleux croissant zigouplex." />
         <meta property="og:title" content="Boulangerie zigouplex - Croissant" />
         <meta property="og:description" content="Venez découvrir notre merveilleux croissant zigouplex." />

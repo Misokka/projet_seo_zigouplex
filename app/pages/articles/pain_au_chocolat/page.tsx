@@ -27,6 +27,7 @@ function PainAuChocolat() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Zigouplex" />
         <meta name="title" content="Boulangerie zigouplex - paint au chocolat"/>
+        <meta name="keywords" content="Zigouplex, Zigouplex pain au chocolat, Pain au Chocolat, French pastry, chocolate croissant, Zigouplex articles" />
         <meta name="Description" content="Venez découvrir notre fabuleux pain au chocolat zigouplex." />
         <meta property="og:title" content="Boulangerie zigouplex - paint au chocolat" />
         <meta property="og:description" content="Venez découvrir notre fabuleux pain au chocolat zigouplex." />

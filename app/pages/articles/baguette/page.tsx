@@ -27,6 +27,7 @@ function Baguette() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Zigouplex" />
         <meta name="title" content="Boulangerie zigouplex - Baguette"/>
+        <meta name="keywords" content="Zigouplex, Zigouplex baguette, baguette, French pastry, chocolate baguette, Zigouplex articles" />
         <meta name="Description" content="Venez découvrir notre mythique baguette zigouplex." />
         <meta property="og:title" content="Boulangerie zigouplex - Baguette" />
         <meta property="og:description" content="Venez découvrir notre mythique baguette zigouplex." />
