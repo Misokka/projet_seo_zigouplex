@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import SchemaScript from './components/SchemaScript';
+import Navbar from './components/navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -38,58 +39,7 @@ export default function Layout({ children }) {
 
       <body className={`${inter.className} bg-gray-50 text-gray-900`}>
         {/* Header */}
-        <header className="bg-white shadow-md sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-            {/* Logo */}
-            <h1 className="text-2xl font-bold text-brown"><a href="/">Zigouplex</a></h1>
-
-            {/* Navigation */}
-            <nav>
-              <ul className="flex space-x-6">
-                <li>
-                  <a
-                    href="/#home"
-                    className="text-gray-700 hover:text-brown font-medium transition"
-                  >
-                    Accueil
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/#about"
-                    className="text-gray-700 hover:text-brown font-medium transition"
-                  >
-                    À propos
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/#products"
-                    className="text-gray-700 hover:text-brown font-medium transition"
-                  >
-                    Produits
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/pages/blog"
-                    className="text-gray-700 hover:text-brown font-medium transition"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/#contact"
-                    className="text-gray-700 hover:text-brown font-medium transition"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+        <Navbar />
 
         {/* Main Content */}
         <main className="max-w-7xl mx-auto px-4 py-8">{children}</main>

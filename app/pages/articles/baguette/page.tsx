@@ -31,8 +31,8 @@ function Baguette() {
         <meta property="og:title" content="Boulangerie zigouplex - Baguette" />
         <meta property="og:description" content="Venez découvrir notre mythique baguette zigouplex." />
         <meta property="og:image" content="/iamges/baguette.webp" />
-        <meta property="og:url" content="https://www.zigouplex.site/articles/baguette" />
-        <link rel="canonical" href="https://www.zigouplex.site/articles/baguette" />
+        <meta property="og:url" content="https://www.zigouplex.site/pages/articles/baguette" />
+        <link rel="canonical" href="https://www.zigouplex.site/pages/articles/baguette" />
       </Head>
       
       <main className="bg-white px-6 py-8">
