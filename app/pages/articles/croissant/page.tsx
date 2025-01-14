@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Contact from "../../../components/Contact";
 import Footer from "../../../components/Footer";
+import Head from "next/head";
 
 function Croissant() {
     const products = [
@@ -20,6 +21,19 @@ function Croissant() {
 
     return (
     <>
+        <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Zigouplex" />
+        <meta name="title" content="Boulangerie zigouplex - croissant"/>
+        <meta name="Description" content="Venez découvrir notre merveilleux croissant zigouplex." />
+        <meta property="og:title" content="Boulangerie zigouplex - Croissant" />
+        <meta property="og:description" content="Venez découvrir notre merveilleux croissant zigouplex." />
+        <meta property="og:image" content="/images/baguette.webp" />
+        <meta property="og:url" content="https://www.zigouplex.site/pages/articles/croissant" />
+        <link rel="canonical" href="https://www.zigouplex.site/pages/articles/croissant" />
+      </Head>
+      
         <main className="bg-white px-6 py-8">
             <article className="max-w-4xl m-auto">
                 <h1 className="text-3xl font-bold mb-10">Croissants : L'art du feuilleté et l'énigme du Zigouplex</h1>
