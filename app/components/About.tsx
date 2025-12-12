@@ -7,7 +7,7 @@ export default function About() {
         {/* Image à gauche */}
         <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-lg">
           <Image
-            src="/images/about-patricia.jpg" // 👉 à remplacer par une vraie photo du salon ou de Patricia
+            src="/images/about-patricia.jpeg" // 👉 à remplacer par une vraie photo du salon ou de Patricia
             alt="Salon de coiffure Patricia Osores à Liège"
             fill
             className="object-cover"
@@ -20,13 +20,13 @@ export default function About() {
             À propos du salon
           </h2>
           <p className="text-lg leading-relaxed mb-4">
-            Depuis plus de <strong>4 ans</strong>, le <strong>Salon Patricia Osores</strong> 
+            Depuis plus de <strong>4 ans</strong>, le <strong>Salon Patricia Osores </strong> 
             à Liège offre à chaque client une expérience unique, alliant expertise, écoute et élégance.
           </p>
           <p className="text-lg leading-relaxed mb-4">
-            Patricia met tout son savoir-faire au service de votre beauté, dans une 
+            Je mets tout mon savoir-faire au service de votre beauté, dans une 
             atmosphère <strong>chaleureuse et authentique</strong> où chaque détail compte.  
-            Le salon reflète son goût pour l’harmonie, le soin et la mise en valeur naturelle de chacun.
+            Le salon reflète mon goût pour l’harmonie, le soin et la mise en valeur naturelle de chacun.
           </p>
           <p className="text-lg leading-relaxed">
             Que vous souhaitiez une coupe, une couleur, ou un relooking complet, 

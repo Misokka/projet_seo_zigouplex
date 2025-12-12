@@ -1,15 +1,15 @@
 const testimonials = [
   {
-    name: "Sophie D.",
-    text: "Patricia est incroyable ! Elle a su comprendre exactement ce que je voulais. Le résultat est sublime et l’ambiance du salon est très apaisante.",
+    name: "Jingwen",
+    text: "Très gentil, eficaz, prix correct. J’ai bien aimer le résultat. La coiffeuse Patricia elle sais parler espagnol , français et anglais.",
   },
   {
-    name: "Laura M.",
-    text: "Un accueil chaleureux, des conseils professionnels et une coupe parfaite à chaque fois. Je recommande les yeux fermés !",
+    name: "Dannia",
+    text: "Une très bonne expérience ! J'ai adoré la coupe. Patricia est très sympathique.",
   },
   {
-    name: "Isabelle P.",
-    text: "C’est plus qu’un salon, c’est un vrai moment de détente. J’adore la déco, les produits et surtout le professionnalisme de Patricia.",
+    name: "Ambre",
+    text: "J’adore le rendu ! Coiffeuse super agréable et professionnelle je recommande à 100% de bon produits utilisés en plus.",
   },
 ];
 

@@ -3,28 +3,28 @@ import Image from "next/image";
 export default function Gallery() {
   const photos = [
     {
-      src: "/images/gallery-coupe1.jpg",
-      alt: "Coupe courte élégante - Salon Patricia Osores",
+      src: "/images/gallery-coupe1.jpeg",
+      alt: "Salon Patricia Osores",
     },
     {
-      src: "/images/gallery-coloration1.jpg",
-      alt: "Coloration dorée naturelle - Salon Patricia Osores",
+      src: "/images/gallery-coloration1.jpeg",
+      alt: "alon Patricia Osores",
     },
     {
       src: "/images/gallery-soin1.jpg",
-      alt: "Soin capillaire revitalisant - Salon Patricia Osores",
+      alt: "Salon Patricia Osores",
     },
     {
-      src: "/images/gallery-coiffure1.jpg",
-      alt: "Coiffure de soirée chic - Salon Patricia Osores",
+      src: "/images/gallery-coiffure1.jpeg",
+      alt: "Salon Patricia Osores",
     },
     {
-      src: "/images/gallery-balayage1.jpg",
-      alt: "Balayage lumineux - Salon Patricia Osores",
+      src: "/images/gallery-balayage1.jpeg",
+      alt: "Salon Patricia Osores",
     },
     {
-      src: "/images/gallery-coupe2.jpg",
-      alt: "Brushing naturel - Salon Patricia Osores",
+      src: "/images/gallery-coupe2.jpeg",
+      alt: "Salon Patricia Osores",
     },
   ];
 

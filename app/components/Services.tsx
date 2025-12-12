@@ -13,13 +13,13 @@ export default function Services() {
       name: "Coloration & Balayage",
       description:
         "Des couleurs lumineuses et naturelles adaptées à votre teint et votre personnalité.",
-      image: "/images/service-coloration.jpg",
+      image: "/images/service-coloration.jpeg",
       link: "#rendezvous",
     },
     {
-      name: "Soins Capillaires",
+      name: "Lissage brésilien & Botox capillaire",
       description:
-        "Des soins nourrissants pour redonner force, brillance et vitalité à vos cheveux.",
+        "Des soins intensifs pour des cheveux lisses, brillants et revitalisés.",
       image: "/images/service-soin.jpg",
       link: "#rendezvous",
     },

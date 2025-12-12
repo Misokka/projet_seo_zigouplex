@@ -11,7 +11,7 @@ export default function Hero() {
     >
       {/* Image de fond */}
       <Image
-        src="/images/hero-coiffure.jpg" // 👉 tu remplaceras par une photo du salon ou d'une coiffure
+        src="/images/about-patricia.jpg" // 👉 tu remplaceras par une photo du salon ou d'une coiffure
         alt="Salon de coiffure Patricia Osores"
         fill
         priority

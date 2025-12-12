@@ -11,49 +11,56 @@ export interface ServiceCategory {
 
 export const services: ServiceCategory[] = [
   {
-    category: "Femme",
+    category: "Coupes",
     prestations: [
-      { name: "Shampoing + Brushing – Cheveux Courts", duration: "40min", price: "26 €" },
-      { name: "Shampoing + Brushing – Cheveux Mi-Longs", duration: "45min", price: "28 €" },
-      { name: "Shampoing + Brushing – Cheveux Longs", duration: "1h", price: "32 €" },
-      { name: "Shampoing + Coupe + Brushing – Cheveux Courts", duration: "40min", price: "à partir de 43 €" },
-      { name: "Shampoing + Coupe + Brushing – Cheveux Mi-Longs", duration: "50min", price: "à partir de 45 €" },
+      { name: "Coupe femme + soin", duration: "1h", price: "à partir de 55 €" },
+      { name: "Coupe enfant (6–12 ans)", duration: "30min", price: "25 €" },
+      { name: "Coupe homme", duration: "30min", price: "25 €" },
     ],
   },
   {
-    category: "Couleur",
+    category: "Brushing",
     prestations: [
-      { name: "Couleur + Shampoing + Brushing – Cheveux Courts", duration: "1h 40min", price: "à partir de 70 €" },
-      { name: "Couleur + Shampoing + Brushing – Cheveux Mi-Longs", duration: "1h 45min", price: "à partir de 72 €" },
-      { name: "Couleur + Shampoing + Brushing – Cheveux Longs", duration: "2h", price: "à partir de 78 €" },
-      { name: "Couleur + Shampoing + Coupe + Brushing – Cheveux Courts", duration: "1h 40min", price: "à partir de 87 €" },
-      { name: "Couleur + Shampoing + Coupe + Brushing – Cheveux Mi-Longs", duration: "1h 45min", price: "à partir de 89 €" },
+      { name: "Brushing", duration: "45min", price: "à partir de 35 €" },
     ],
   },
   {
-    category: "Couleur sans ammoniaque",
+    category: "Étudiant(e) -26 ans",
     prestations: [
-      { name: "Couleur sans ammoniaque + Shampoing + Brushing – Cheveux Courts", duration: "1h 40min", price: "à partir de 72 €" },
-      { name: "Couleur sans ammoniaque + Shampoing + Brushing – Cheveux Mi-Longs", duration: "1h 45min", price: "à partir de 74 €" },
-      { name: "Couleur sans ammoniaque + Shampoing + Brushing – Cheveux Longs", duration: "2h", price: "à partir de 80 €" },
+      { name: "Coupe étudiant(e)", duration: "45min", price: "à partir de 30 €" },
     ],
   },
   {
-    category: "Balayage & Mèches",
+    category: "Balayage",
     prestations: [
-      { name: "Balayage + Shampoing + Brushing – Cheveux Courts", duration: "2h", price: "à partir de 95 €" },
-      { name: "Balayage + Shampoing + Brushing – Cheveux Mi-Longs", duration: "2h 30min", price: "à partir de 105 €" },
-      { name: "Balayage + Shampoing + Brushing – Cheveux Longs", duration: "3h", price: "à partir de 115 €" },
-      { name: "Mèches + Shampoing + Brushing", duration: "2h", price: "à partir de 85 €" },
+      { name: "Balayage + coupe + brushing", duration: "3h", price: "à partir de 180 €" },
+      { name: "Balayage + brushing", duration: "2h 30min", price: "à partir de 120 €" },
+      { name: "Balayage cheveux longs + brushing", duration: "3h 30min", price: "à partir de 195 €" },
     ],
   },
   {
-    category: "Soins Capillaires",
+    category: "Décoloration",
     prestations: [
-      { name: "Soin Réparateur Intense", duration: "30min", price: "35 €" },
-      { name: "Soin Hydratant", duration: "25min", price: "30 €" },
-      { name: "Soin Anti-Frisottis", duration: "30min", price: "32 €" },
-      { name: "Traitement Capillaire Complet", duration: "45min", price: "50 €" },
+      { name: "Décoloration + coupe + brushing", duration: "2h 30min", price: "à partir de 160 €" },
+      { name: "Coulage", duration: "1h 30min", price: "à partir de 50 €" },
+    ],
+  },
+  {
+    category: "Coloration",
+    prestations: [
+      { name: "Coloration + coupe + brushing", duration: "2h 30min", price: "à partir de 110 €" },
+      { name: "Coloration + brushing", duration: "2h", price: "à partir de 95 €" },
+      { name: "Coloration + mèches + brushing", duration: "2h", price: "à partir de 80 €" },
+      { name: "Ombré / Tie and Dye", duration: "2h 30min", price: "à partir de 80 €" },
+    ],
+  },
+  {
+    category: "Soin",
+    prestations: [
+      { name: "Lissage brésilien", duration: "3h", price: "à partir de 180 €" },
+      { name: "Botox profond", duration: "1h 30min", price: "à partir de 90 €" },
+      { name: "Soin Gemona", duration: "1h 30min", price: "à partir de 90 €" },
+      { name: "Chignon / attache", duration: "1h", price: "52 €" },
     ],
   },
 ];
