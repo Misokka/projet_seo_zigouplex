@@ -2,32 +2,36 @@ import Script from 'next/script'
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Bakery",
-  "name": "Zigouplex",
-  "image": "/images/bakery-hero.jpg",
+  "@type": "HairSalon",
+  "name": "Salon de coiffure Patricia Osores",
+  "image": "/images/hero-coiffure.jpg",
+  "description": "Le salon de coiffure Patricia Osores à Liège vous accueille dans une ambiance chaleureuse et élégante pour sublimer vos cheveux. Spécialiste en coupe, coloration et soins capillaires.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Rue de la Boulangerie",
-    "addressLocality": "Paris",
-    "postalCode": "75001",
-    "addressCountry": "FR"
+    "streetAddress": "1 Place République Française 34",
+    "addressLocality": "Liège",
+    "postalCode": "4000",
+    "addressCountry": "BE"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 48.8566,
-    "longitude": 2.3522
+    "latitude": 50.633,
+    "longitude": 5.567
   },
-  "url": "https://zigouplex.fr",
-  "telephone": "+33123456789",
+  "url": "https://patricia-osores.fr",
+  "telephone": "+32496714115",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      "opens": "07:00",
-      "closes": "20:00"
+      "dayOfWeek": ["Monday"],
+      "opens": "10:00",
+      "closes": "18:00"
     }
   ],
-  "priceRange": "€€"
+  "priceRange": "€€",
+  "sameAs": [
+    "https://www.facebook.com/salon.de.coiffure.patricia",
+  ]
 }
 
 export default function SchemaScript() {

@@ -1,30 +1,43 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
+import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-[70vh] bg-gradient-to-br from-yellow-100 via-yellow-200 to-yellow-300 flex items-center justify-center">
-      {/* <Image
-        src="/images/bakery-hero.jpg"
-        alt="Boulangerie Zigouplex"
+    <section
+      id="home"
+      className="relative h-[85vh] sm:h-[90vh] w-full overflow-hidden bg-dark text-light"
+    >
+      {/* Image de fond */}
+      <Image
+        src="/images/hero-coiffure.jpg" // 👉 tu remplaceras par une photo du salon ou d'une coiffure
+        alt="Salon de coiffure Patricia Osores"
         fill
         priority
-        className="absolute inset-0 object-cover opacity-70"
-      /> */}
-      <div className="relative z-10 text-center text-gray-800">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
-          Bienvenue chez <span className="text-brown">Zigouplex</span>
+        className="object-cover opacity-80"
+      />
+
+      {/* Filtre sombre léger */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
+
+      {/* Contenu texte */}
+      <div className="relative z-10 h-full flex flex-col justify-center px-8 sm:px-16 md:px-24 lg:px-32 max-w-4xl">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-brand font-bold leading-tight text-light mb-6">
+          Sublimez vos cheveux,
+          <br />
+          révélez votre élégance.
         </h1>
-        <p className="text-xl md:text-2xl mb-6">
-          Des pains et viennoiseries artisanaux d'exception.
+
+        <p className="text-lg sm:text-xl text-light/90 mb-8 max-w-xl">
+          Le Salon Patricia Osores vous accueille dans une atmosphère chaleureuse
+          et raffinée, où chaque détail est pensé pour sublimer votre beauté.
         </p>
-        <a
-          href="#products"
-          className="px-6 py-3 bg-brown text-white text-lg rounded-lg shadow-md hover:bg-yellow-700 transition"
-        >
-          Découvrez nos produits
-        </a>
+
+        <div className="flex space-x-4">
+          <Button text="Prendre rendez-vous" href="/rendezvous" />
+          <Button text="Découvrir mes services" href="#services" variant="secondary" />
+        </div>
       </div>
     </section>
   );

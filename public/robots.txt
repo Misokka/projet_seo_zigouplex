@@ -1,9 +1,10 @@
-# *
+# User-agent
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.zigouplex.site
+# Host (à mettre à jour quand le domaine sera choisi)
+# Exemple : https://www.patricia-osores.fr
+Host: https://www.votredomaine.com
 
-# Sitemaps
-Sitemap: https://www.zigouplex.site/sitemap.xml
+# Sitemap (idem, à mettre à jour plus tard)
+Sitemap: https://www.votredomaine.com/sitemap.xml
